@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>width in tailwind css</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <!-- <h1 class="bg-pink-200">Lorem ipsum dolor sit amet.</h1>
+    <h1 class="bg-pink-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, aut.</h1>
+   <div class="bg-pink-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, atque?</div>
+   <span class="bg-pink-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur esse .</span> -->
+   <div class="bg-pink-200">Lorem ipsum dolor sit amet.</div>
+      <div class="bg-pink-200 w-50">Lorem ipsum dolor sit amet.</div>
+  <div class="bg-pink-300 min-w-40 w-20">Lorem ipsum dolor sit amet.</div>
+  <div class="bg-pink-300 min-w-40 w-60">Lorem ipsum dolor sit amet.</div>
+ 
+  <!-- // in line no 15 agar hmne koi width di h or vo min-width ki value se km h  to min-width hi consider kri jayegi na ki width kuki  by default min-width 40 hoti h. 
+   in line no16 agr hmne koi width di h uski value min-width ki value se jyada h to width wali value consider kri jayegi-->
+
+      <!-- in tailwind css for giving  the width  here is a property called w.
+       *minimum width is denoted by min-w and if we not specifying any width then min width will be 40 (160px) and max width will be the entire screen width 
+       *maximum-width is denoted by max-w-->
+        <div class="bg-pink-400 max-w-50 w-60">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-pink-500 max-w-50 w-30">Lorem ipsum dolor sit amet.</div>
+        
+      <!-- in line n0 24  agar hmne koi width di h or uski value max-width ki value se jyada h  to max-w wali value consider hogi.
+      and similarly in line no 25 agar  hmne koi width di h or uski value max-width ki value se km h  to width wali value consider hogi. -->
+
+           <!-- w-full property:- w-full take the entire screen width(100%).if we want half of the entire screen then  w-full=1/2 -->
+            <div class="bg-pink-600 w-full">Lorem ipsum dolor sit amet.</div>
+            <div class="bg-pink-700 w-1/2">Lorem ipsum dolor sit amet.</div>
+            <div class="bg-pink-800  w-1/3">Lorem ipsum dolor sit amet.</div>
+
+              <!-- w-xs,w-2xs,w-3xs -->
+               <div class="bg-yellow-100 w-xs">Lorem ipsum dolor sit amet.</div>
+                <div class="bg-yellow-200 w-2xs">Lorem ipsum dolor sit amet.</div>
+                 <div class="bg-yellow-300 w-3xs">Lorem ipsum dolor sit amet.</div>
+
+                 <!-- this is for extra small -->
+
+                 <!-- w-xl,w-2xl,w-3xl -->
+                   <div class="bg-green-300 w-xl">Lorem ipsum dolor sit amet.</div>
+                    <div class="bg-yellow-300 w-2xs">Lorem ipsum dolor sit amet.</div>
+                      <!-- this is for extra large -->
+
+
+</body>
+</html>

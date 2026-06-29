@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>height in tailwind css</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="h-screen">
+    <div class="bg-yellow-200">Lorem ipsum dolor sit amet consectetur.</div>
+       <div class="bg-yellow-300 h-12">Lorem ipsum dolor sit amet consectetur.</div>
+          <div class="bg-yellow-400 h-30">Lorem ipsum dolor sit amet consectetur.</div>
+
+             <div class="bg-yellow-200 h-full">Lorem ipsum dolor sit amet consectetur.</div>
+             agar hm height ya width ni denge to by default width apply ho jati h puri screen p pr height ni hoti
+             h-full means 100% height of the screen .
+             h-1/2 means half(50%) of the screen.
+
+                <div class="bg-yellow-200 max-h-40">Lorem ipsum dolor sit amet consectetur.</div>
+                in tailwind css max-height is denoted by max-h .
+
+                   <div class="bg-yellow-200 max-h-40 h-60">Lorem ipsum dolor sit amet consectetur.</div>
+                 in line no 21  agar hmari max-height ki value height s km h to always max-h wali value apply hogi.
+                   <div class="bg-yellow-200 max-h-40 h-20"></div>
+                 in line no 23  agar hmari max-height ki value height s jyada h to always height  wali value apply hogi.
+
+                   <div class="bg-yellow-200 min-h-40 ">Lorem ipsum dolor sit amet.</div>
+                   min-height is denoted by min-h in tailwind css
+
+                     <div class="bg-yellow-200 min-h-40 h-80">Lorem ipsum dolor sit amet.</div>
+                     in line no 29 agar hmari min-h ki value height s km h to  wali value apply hogi
+
+                       <div class="bg-yellow-200 min-h-40 h-30">Lorem ipsum dolor sit amet.</div>
+
+                       to give height in px we use this syntax h-[px] 
+                         <div class="bg-yellow-200 h-[60px]"></div>
+
+                          <div class="bg-yellow-200 h-[10px] hover:h-[30px]"></div>
+</body>
+</html>
+in tailwind css the height is denoted by h.

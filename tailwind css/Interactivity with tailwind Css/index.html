@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Interactivity with tailwind css</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <button class="bg-blue-400 p-2 m-2 rounded-md text-white block">Register-simple button</button>
+    <button class="bg-blue-400 p-2 m-2 rounded-md text-white block hover:bg-blue-700 hover:text-yellow-400">Register-hover button</button>
+    <button class="bg-blue-400 p-2 m-2 rounded-md text-white block focus:bg-yellow-500">Register-focus button</button>
+     <!-- focus:- jb hm button pr click krege tbcolor chng hoga sirf -->
+      <button class="bg-blue-400 p-2 m-2 rounded-md text-white block active:bg-green-400">Register-Active button</button>
+      <!-- active:- jb hm click krege sirf tb color green hoga ek br or fir disappear ho jayega -->
+       <div>
+        <a href="#" class="hover:text-green-500">Click on me</a>
+
+         <a href="#" class="hover:text-green-500">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quis modi voluptas ratione.
+            </p>
+         </a>
+       </div>
+
+
+       <div> 
+         <a href="#" class="group">
+            <h2 class="group-hover:text-green-500">Lorem ipsum dolor sit.</h2>
+            <p class="group-hover:text-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quis modi voluptas ratione.
+            </p>
+         </a>
+        </div>
+
+        <!-- agar hme esa krna h ki jb hm hover kre to h1 k text ka color kuch or aaye  or p k text ka color kch or aaye to hm dono h1 or p m hover text color ki property lgake usse phele group lga denge or parent(div) m bhi group lga denge.
+                                      or
+         ya esa krna ho ki sirf h1 p hover krne p color chng ho to h1 m group or parent(div) m group lga denge -->
+    </body>
+</html>
