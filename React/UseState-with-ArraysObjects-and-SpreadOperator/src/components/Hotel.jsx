@@ -47,3 +47,6 @@ const bookedRoom = (id) =>{
 }
 export default Hotel;
 // h.w  make book button toggle button => if room is booked then available ,if room is available then booked
+
+
+
