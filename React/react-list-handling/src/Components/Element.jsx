@@ -1,6 +1,6 @@
 // if we want to add multiple component for same template then use list handling.
 // and also hm loops bhi use kr payege list ki wjah s .
-import React from 'react'
+//import React from 'react'
 // agar hme list ka use krna h to hm curly braces{} ka use krge.kuki curlybraces hmare js ko inject krne m help krte h html k ander.
 const Element = () => {
   return (

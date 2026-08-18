@@ -1,5 +1,5 @@
 // this component will act as a parent component.
-import React, { useState } from 'react'
+import { useState } from 'react'
 import ChatRoom from './ChatRoom'
 
 const Discord = () => {
@@ -27,3 +27,10 @@ const Discord = () => {
 }
 
 export default Discord
+// flow of this chatRoom:- start here
+// Dicord->ChatRoom->UseChatRoom->ServerConnection
+// hmne ek room id lih or usko chng krne ki responsibility select tag ki h vo chng kr deta h uske pass multiple options h.
+// uske bd ek button h hmare pass jo chat ko open krta h or close  krta h or  prop ka use krke hmare channel ki room id bhejta h .id jaise clg,family .
+// or jo ye select tag m option h jb bhi hm in option ko choose krte h to vo setRoomId k through hmari RoomId ko set krta h or jo bhi value aati h use chatRoom wale component m bhej deta h
+
+
